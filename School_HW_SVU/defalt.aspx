@@ -194,6 +194,7 @@
 
         </div><br />
          <input id="Submit1" type="submit" value="سجل الأن" />
+        
     </form>
  </body>
 </html>
