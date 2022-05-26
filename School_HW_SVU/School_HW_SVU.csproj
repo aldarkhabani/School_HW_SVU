@@ -68,9 +68,26 @@
     <Content Include="App_Data\school4_log.ldf">
       <DependentUpon>school4.mdf</DependentUpon>
     </Content>
+    <Content Include="defalt.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="imag\images.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="defalt.aspx.cs">
+      <DependentUpon>defalt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="defalt.aspx.designer.cs">
+      <DependentUpon>defalt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
